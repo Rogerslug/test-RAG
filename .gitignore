@@ -1,0 +1,10 @@
+# Archivo para ignorar los archivos de compilación
+
+# para ignorar el entorno virtual de python
+venv/
+
+# para ignorar archivos de configuración de visual studio code
+.vscode/
+
+# Para ignorar archivos de caché de __pycache__ dentro de las subcarpetas, esto es porque se generan automáticamente y no es necesario que se haga commit
+__pycache__/

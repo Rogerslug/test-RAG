@@ -1,0 +1,23 @@
+0. Cambiar la política de ejecución de PowerShell para permitir la ejecución de scripts:
+   Abre PowerShell y ejecuta el siguiente comando:
+   ```
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+
+1. Ejecutar el script de configuración `setup.ps1`:
+   En la carpeta raíz de tu proyecto, ejecuta el siguiente comando en PowerShell:
+   ```
+   .\setup.ps1
+   ```
+
+2. Activar el entorno virtual:
+   Si el entorno virtual no se activa automáticamente, ejecuta el siguiente comando:
+   ```
+   .\venv\Scripts\Activate.ps1
+   ```
+
+3. Para ejecutar el programa, escribe el siguiente comando:
+   ```
+   python ./src/app.py
+   ```
+   Cuando esté corriendo, deberías ver un mensaje similar a "Running on http://127.0.0.1:5000". Podrás hacer peticiones en Postman.

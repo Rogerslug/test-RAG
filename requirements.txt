@@ -1,0 +1,10 @@
+flask
+werkzeug
+pandas
+scikit-learn
+joblib
+requests
+mysql-connector-python
+faiss-cpu
+numpy
+tensorflow
